@@ -1,0 +1,53 @@
+ul {
+list-style-type: none;
+}
+li {
+float: left;
+display: inline;
+background-color:red;
+margin: 0px 10px;
+border:solid;
+}
+li>a {
+text-decoration:none;
+color:white;
+padding:5px 10px;
+border:solid;
+}
+body  {
+background-color:pink;
+background-repeat:no-repeat;
+background-size:cover;
+overflow:hidden;
+}
+
+.container {
+display:flex;
+float:left;
+}
+.welcome {
+width:40%;
+height:100vw;
+background-color:rgba(0,0,0,0.7);
+color:white;
+text-align:center;
+}
+.welcome > h1 {
+padding:50px 20px 5px;
+}
+
+input {
+background-color:orange;
+color:white;
+animation-name:order;
+animation-duration:5s;
+animation-iteration-count:infinite;
+}
+
+@keyframes order {
+0% {color:white; border-color:white;}
+15% {color:blue; border-color:blue;}
+45% {color:red; border-color:red;}
+70% {color:yellow; border-color:yellow;}
+100% {color:black; border-color:black;}
+}
